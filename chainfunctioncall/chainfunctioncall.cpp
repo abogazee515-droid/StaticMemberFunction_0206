@@ -11,6 +11,9 @@ public:
     angka(int);
     ~angka();
 
+    void cetakData();
+    void isiData();
+
 };
 
 
