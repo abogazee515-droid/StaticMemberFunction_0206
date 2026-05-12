@@ -14,6 +14,12 @@ public:
         vehicleId = 0;
         vehicleName = "Unknown";
     }
+
+    Vehicle(int id)
+    {
+        vehicleId = id;
+        vehicleName = "Unknown";
+    }
 };
 
 int main()
