@@ -26,6 +26,12 @@ public:
         vehicleId = 0;
         vehicleName = name;
     }
+
+    Vehicle(int id, string name)
+    {
+        vehicleId = id;
+        vehicleName = name;
+    }
 };
 
 int main()
