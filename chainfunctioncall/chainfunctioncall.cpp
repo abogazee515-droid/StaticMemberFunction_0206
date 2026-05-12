@@ -16,6 +16,10 @@ public:
 
 };
 
+angka::angka(int i) {
+    panjang = i;
+}
+
 
 
 
