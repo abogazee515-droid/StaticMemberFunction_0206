@@ -22,6 +22,9 @@ angka::angka(int i) {
     isiData();
 }
 
+angka::~angka() {
+    delete[] arr;
+}
 
 
 
