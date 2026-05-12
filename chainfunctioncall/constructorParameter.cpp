@@ -11,9 +11,13 @@ public:
     mahasiswa(int iNim, string iNama) {
         nim = iNim;
         nama = iNama;
+
+        cout << "Constructor Dengan Parameter Terpanggil" << endl;
     }
 };
 
 int main() {
+    mahasiswa mhs1(12345, "Andi");
+
     return 0;
 }
