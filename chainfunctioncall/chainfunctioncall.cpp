@@ -23,6 +23,9 @@ angka::angka(int i) {
 }
 
 angka::~angka() {
+
+    cout << endl;
+    cetakData();
     delete[] arr;
 
     cout << "Alamat Array Sudah Dilepaskan" << endl;
@@ -55,5 +58,7 @@ int main() {
 
     angka belajarcpp(3);
     angka* ptrBelajarcpp = new angka(5);
+    delete ptrBelajarcpp;
+
     return 0;
 }
