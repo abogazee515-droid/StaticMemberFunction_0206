@@ -32,6 +32,13 @@ public:
         vehicleId = id;
         vehicleName = name;
     }
+
+    void display()
+    {
+        cout << "Vehicle ID   : " << vehicleId << endl;
+        cout << "Vehicle Name : " << vehicleName << endl;
+        cout << "-----------------------------" << endl;
+    }
 };
 
 int main()
