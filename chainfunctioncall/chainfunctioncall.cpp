@@ -24,6 +24,8 @@ angka::angka(int i) {
 
 angka::~angka() {
     delete[] arr;
+
+    cout << "Alamat Array Sudah Dilepaskan" << endl;
 }
 
 
