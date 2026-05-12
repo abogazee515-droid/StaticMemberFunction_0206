@@ -54,5 +54,6 @@ int main() {
 
 
     angka belajarcpp(3);
+    angka* ptrBelajarcpp = new angka(5);
     return 0;
 }
