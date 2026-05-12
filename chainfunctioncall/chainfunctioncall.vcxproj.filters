@@ -21,5 +21,8 @@
     <ClCompile Include="constructorOverloading.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="constructorParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
