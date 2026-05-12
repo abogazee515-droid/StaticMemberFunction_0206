@@ -4,6 +4,7 @@ using namespace std;
 
 class buku {
     string judul;
+
 public:
     buku setJudul(string judul) {
         this->judul = judul;
@@ -15,6 +16,11 @@ public:
     }
 };
 
-int main() {
+int main()
+{
+    buku bukunya;
+
+    cout << bukunya.setJudul("Matematika").getJudul();
+
     return 0;
 }
