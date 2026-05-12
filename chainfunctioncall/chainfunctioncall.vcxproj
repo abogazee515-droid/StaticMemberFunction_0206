@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="chainFunction.cpp" />
     <ClCompile Include="chainfunctioncall.cpp" />
     <ClCompile Include="constructorOverloading.cpp" />
     <ClCompile Include="constructorParameter.cpp" />
