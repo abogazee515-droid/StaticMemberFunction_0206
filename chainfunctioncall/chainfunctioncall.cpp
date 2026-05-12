@@ -51,5 +51,8 @@ void angka::isiData()
 
 
 int main() {
+
+
+    angka belajarcpp(3);
     return 0;
 }
