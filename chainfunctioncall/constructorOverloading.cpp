@@ -14,6 +14,9 @@ public:
 
 };
 
+mahasiswa::mahasiswa() {
+}
+
 
 
 int main (){
