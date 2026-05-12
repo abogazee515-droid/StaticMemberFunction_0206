@@ -9,6 +9,7 @@ private:
     string vehicleName;
 
 public:
+
     Vehicle()
     {
         vehicleId = 0;
@@ -43,5 +44,22 @@ public:
 
 int main()
 {
+    Vehicle v1;
+    Vehicle v2(101);
+    Vehicle v3("Toyota");
+    Vehicle v4(202, "Honda");
+
+    cout << "Vehicle 1" << endl;
+    v1.display();
+
+    cout << "Vehicle 2" << endl;
+    v2.display();
+
+    cout << "Vehicle 3" << endl;
+    v3.display();
+
+    cout << "Vehicle 4" << endl;
+    v4.display();
+
     return 0;
 }
