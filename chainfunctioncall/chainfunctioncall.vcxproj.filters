@@ -18,5 +18,8 @@
     <ClCompile Include="chainfunctioncall.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="constructorOverloading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
